@@ -1,0 +1,356 @@
+body {
+    background-color: #000000;
+    box-sizing: border-box;
+}
+
+.container__box {
+    margin: 0 auto;
+    width: 1155px;
+    font-family: "IBM Plex Mono";
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+/* ======= section "header" ======= */
+
+.header {
+    height: 765px;
+}
+
+.header__image {
+    padding-top: 23px;
+    position: absolute;
+    left: 0;
+    background-image: url("images/header-img.jpg");
+    width: 100vw;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__name {
+    font-weight: 700;
+    font-size: 42.41px;
+    letter-spacing: -0.11em;
+    text-transform: uppercase;
+    padding-left: 9px;
+    padding-right: 14px;
+    line-height: 37px;
+    letter-spacing: -0.11em;
+    text-decoration: none;
+    color: #1bff07;
+}
+
+.header__logo {
+    margin-right: 520px;
+    float: left;
+    height: 39px;
+    border-radius: 100px;
+    background-color: #000000;
+}
+
+.header__nav li {
+    display: inline;
+    margin-right: 48px;
+}
+
+.header__nav li a {
+    line-height: 23.4px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__nav li a:hover {
+    color: #1BFF07;
+}
+
+.header__nav li:last-child {
+    margin-right: 0;
+}
+
+.header__text {
+    margin-top: 259px;
+    margin-bottom: 29px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 94px;
+    width: 919px;
+    line-height: 70px;
+    font-size: 80px;
+    color: #1BFF07;
+}
+
+/* ======= section "projects" ======= */ 
+
+.projects {
+    margin: 150px 0;
+}
+
+.projects__wrap {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.projects__title,
+.competencies__title,
+.skills__card__title {
+    line-height: 71.5px;
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.projects__card {
+    position: relative;
+    height: 550px;
+
+}
+
+.projects__card__img {
+    border-radius: 30px;
+}
+
+.projects__text-wrap {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.projects__link,
+.competencies__card__subtitle {
+    line-height: 45.5px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+a.projects__link {
+    text-decoration: none;
+}
+
+a.projects__link:hover {
+    color: #1BFF07;
+}
+
+.projects__card__description {
+    font-weight: 400;
+    line-height: 39px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.projects__button {
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    border: none;
+    font-family: "IBM Plex Mono";
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    background-color: #1BFF07;
+    color: #000000;
+}
+
+.projects__button:hover {
+    background-color: #000000;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+    cursor: pointer;
+}
+
+/* ======= section "competencies" ======= */
+
+.competencies .competencies__card__subtitle {
+    color: #1BFF07;
+}
+
+.competencies .competencies__card__subtitle::before {
+    content: '';
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 44px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    bottom: 16px;
+}
+
+.competencies__icon-html::before {
+    background-image: url("images/icon/html.svg");
+}
+
+.competencies__icon-js::before {
+    background-image: url("images/icon/js.svg");
+}
+
+.competencies__icon-framework::before {
+    background-image: url("images/icon/framework.svg");
+}
+
+.competencies__icon-mobile::before {
+    background-image: url("images/icon/mobile.svg");
+}
+
+.competencies__wrap {
+    margin-bottom: 150px;
+}
+
+.competencies__card {
+    margin-bottom: 70px;
+}
+
+.competencies__card:first-child {
+    margin-top: 60px;
+}
+
+.competencies__card__description,
+.skills__card__description {
+    margin-top: 15px;
+    width: 778px;
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #ffffff;
+}
+
+/* ======= section "skills" ======= */
+
+.skills__title {
+    width: 403px;
+    font-size: 34px;
+    line-height: 45.5px;
+    color: #ffffff;
+}
+
+.skills__card__title {
+    color: #1bff07;
+}
+
+.skills__card__wrap {
+    margin: 74px 0;
+}
+
+.skills__card__img-dev-site,
+.skills__card__img-design-site,
+.skills__card__img-mobile {
+    height: 200px;
+}
+
+.skills__card__img-dev-site {
+    background-image: url("images/dev-site.jpg");
+    border-radius: 30px;
+}
+
+.skills__card__img-design-site {
+    background-image: url("images/design-site.jpg");
+    border-radius: 30px;
+}
+
+.skills__card__img-mobile {
+    background-image: url("images/mobile.jpg");
+    border-radius: 30px;
+}
+
+.skills__card__text-wrap {
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #191C19;
+}
+
+/* ======= section "contacts" ======= */
+
+.contacts {
+    margin-top: 150px;
+    height: 717px;
+}
+
+.contacts__wrap {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: 717px;
+    background-color: #191C19;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+.contacts__wrap-text {
+    position: absolute;
+    left: 125px;
+    bottom: 89px;
+}
+
+.contacts__title {
+    display: inline;
+    margin-bottom: 28px;
+    font-size: 35px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.contacts__wrap-text {
+    display: inline;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.contacts__img {
+    position: absolute;
+    right: 0;
+    margin-left: 300px;
+    float: right;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.contacts__link li a {
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    z-index: 0;
+}
+
+.contacts__link li a:hover {
+    color: #1BFF07;
+}
+
+/* ======= section "footer" ======= */
+
+.footer {
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 100vw;
+    height: 273px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #ffffff;
+}
+
+.footer__text {
+    margin-top: 76px;
+    font-family: "Manrope";
+    font-size: 22px;
+    line-height: 30.05px;
+    color: #000000;
+}
+
+.footer__copyright {
+    margin-top: 66px;
+    font-family: "Manrope";
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #000000;
+    opacity: 0.5;
+}
